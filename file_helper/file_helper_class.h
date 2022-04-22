@@ -29,6 +29,6 @@ private:
 	std::vector<std::string> file_vector = {};
 	std::filesystem::path filepath = { "" };
 	std::ifstream csv_file;
-	int nr_of_lines;
+	int nr_of_lines = 0;
 };
 

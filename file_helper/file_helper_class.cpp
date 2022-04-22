@@ -71,6 +71,7 @@ std::string file_helper_class::get_line(int line_nr)
 	else
 	{
 		std::cout << "Error: line_nr too big for vector content\n";
+		return "";
 	}
 }
 
