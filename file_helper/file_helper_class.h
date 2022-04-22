@@ -2,6 +2,7 @@
 #include <string>
 #include <istream>
 #include <vector>
+#include <filesystem>
 
 class file_helper_class
 {
@@ -12,7 +13,6 @@ public:
 
 	// variables
 	std::string filename = { "" };
-
 	int set_filename(std::string filename);
 
 private:
@@ -22,5 +22,6 @@ private:
 
 	//variables
 	std::vector<std::string> file_vector = {};
+	std::filesystem::path filepath = { "" };
 };
 

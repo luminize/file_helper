@@ -7,4 +7,5 @@ int main()
     // this variable is a helper to read a .csv file
     // the variable can return the content of the file
     file_helper_class filecontent;
+    filecontent.set_filename("sample_file.csv");
 }
